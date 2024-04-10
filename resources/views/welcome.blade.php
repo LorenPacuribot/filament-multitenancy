@@ -66,11 +66,11 @@
 
     <!-- Login button container -->
     <div class="btn-container">
-        <!-- Admin button -->
-        <a href="{{ url('/admin') }}" class="login-btn">Admin</a>
+        {{-- <!-- Admin button -->
+        <a href="{{ url('/admin') }}" class="login-btn">Admin</a> --}}
 
         <!-- User button -->
-        <a href="{{ url('/app') }}" class="login-btn">User</a>
+        <a href="{{ url('/app/login') }}" class="login-btn">Dashboard</a>
     </div>
 </body>
 </html>

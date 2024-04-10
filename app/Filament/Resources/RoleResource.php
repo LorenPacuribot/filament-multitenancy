@@ -66,17 +66,7 @@ class RoleResource extends Resource
                 ->color(fn (string $state): string => match ($state) {
 
                     default => 'gray',
-                    'company-admin' => 'dark-green',
-                    'crm-manager' => 'dark-green-traditional',
-                    'super-admin' => 'deep-green',
-                    'hr-manager' => 'green',
-                    'it-manager' => 'green-lime',
-                    'qa-manager' => 'green-bright',
-                    'team-leader' => 'green-chartreuse',
-                    'agent' => 'dark-green',
-                    'recruitment-manager' => 'dark-green-traditional',
-                    'accounting-manager' => 'deep-green',
-                    'client' => 'deep-orange'
+                
                 })
                 ->sortable()
                 ->searchable(),
